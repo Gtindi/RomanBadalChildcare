@@ -1,0 +1,90 @@
+/* General styles for the form container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label styles */
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+    align-self: flex-start;
+  }
+  
+  /* Input and textarea styles */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Success message styling */
+  p {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+  }
+  
+ 
+
+.contact-info{
+    margin-top: 120px;
+}
+
+.phone{
+    margin-left: 10px;
+    color: #fbc329;
+}
+
+.mail{
+    color: #fbc329;
+}
+
+.address{
+    color: #fbc329;
+}

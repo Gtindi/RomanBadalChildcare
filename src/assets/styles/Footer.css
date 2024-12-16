@@ -1,0 +1,23 @@
+.Footer {
+    background-color: #1A1423;
+    margin-top: 20px;
+}
+
+.map{
+    height: 80px;
+    width: 1000px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .map {
+        width:100%;
+    }
+    .row{
+        width:100%;
+    }
+  }

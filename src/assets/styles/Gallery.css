@@ -1,0 +1,154 @@
+.gallery {
+    max-width: 100%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    margin-top: 10px;
+    margin-bottom: 5rem;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    text-align: center;
+    overflow: hidden;
+  }
+
+/* .carousel-inner{
+    height: 100%;
+} */
+
+.carousel-inner img{
+    height: 600px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.anime6{
+    position: absolute;
+    padding-top: 470px;
+    right: 73rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime7{
+    position: absolute;
+    padding-top: 300px;
+    right: 73rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime8{
+    position: absolute;
+    padding-top: 0px;
+    left: 73rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime9{
+    position: absolute;
+    padding-top: 50px;
+    left: 80rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime10{
+    position: absolute;
+    padding-top: 250px;
+    left: 68rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime11{
+    position: absolute;
+    padding-top: 100px;
+    right: 78rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime12{
+    position: absolute;
+    padding-top: 100px;
+    right: 77rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime13{
+    position: absolute;
+    padding-top: 400px;
+    left: 70rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime14{
+    position: absolute;
+    padding-top: 0px;
+    right: 77rem;
+    z-index: 100;
+    height: auto;
+}
+
+.anime15{
+    position: absolute;
+    padding-top: 610px;
+    left: 50rem;
+    z-index: 100;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .anime6{
+        display: none;
+    }
+    
+    .anime7{
+        display: none;
+    }
+    
+    .anime8{
+        display: none;
+    }
+    
+    .anime9{
+        display: none;
+    }
+    
+    .anime10{
+        display: none;
+    }
+    
+    .anime11{
+        display: none;
+    }
+    
+    .anime12{
+        display: none;
+    }
+    
+    .anime13{
+        display: none;
+    }
+    
+    .anime14{
+        display: none;
+    }
+    
+    .anime15{
+        display: none;
+    }
+    
+}

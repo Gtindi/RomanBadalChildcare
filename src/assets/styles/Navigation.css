@@ -1,0 +1,133 @@
+/* Navigation Bar Styling */
+.navbar {
+   background-color: #1A1423;
+   /* color: white; */
+}
+
+/* Logo Styling */
+.logo {
+   height: 40px;
+   width: auto;
+   align-content: center;
+}
+
+/* Offcanvas Body Styling */
+.offcanvas-body {
+   background-color: #1A1423;
+   color: white;
+   font-family: Arial, sans-serif;
+}
+
+/* Offcanvas Header Styling */
+.offcanvas-header {
+   background-color: #1A1423;
+}
+
+/* Navigation Links Styling */
+.navbar-nav .nav-link {
+   color: #fbc329;
+   font-size: 1rem;
+   transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+   color: #F4A261; /* Lighter orange on hover */
+}
+
+/* Divider Line Styling */
+hr {
+   border-color: #F4A261;
+   margin: 1rem 0;
+}
+
+/* Contact Info Styling */
+.offcanvas-body p {
+   color: #E9D8A6;
+   font-size: 0.9rem;
+   margin-bottom: 0.5rem;
+}
+
+/* Search Box */
+.form-control:focus {
+   outline: none;
+   box-shadow: 0 0 5px #fbc329;
+}
+
+/* Search Button */
+.btn-outline-success {
+   color: white;
+   border-color: #F4A261;
+}
+
+.btn-outline-success:hover {
+   background-color: #fbc329;
+   color: #1A1423;
+}
+
+.toggle{
+   background-color: #fbc329;
+}
+
+.toggle:hover{
+   background-color: #E9D8A6;
+}
+
+.close {
+   background-color: #463f51;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+   .navbar {
+       padding: 0.5rem 1rem;
+       width: 100%;
+   }
+
+   .logo {
+       height: 30px;
+   }
+
+   .navbar-toggler {
+       border: none;
+       background-color: transparent;
+       color: white;
+   }
+
+   .offcanvas {
+       max-width: 75%;
+   }
+
+   .offcanvas-body {
+       padding: 1rem;
+       font-size: 0.9rem;
+   }
+
+   .nav-item {
+       margin-bottom: 1rem;
+   }
+
+   .offcanvas-body ul {
+       padding-left: 0;
+       list-style: none;
+   }
+
+   .form-control {
+       font-size: 0.9rem;
+   }
+
+   .btn-outline-success {
+       font-size: 0.9rem;
+       padding: 0.375rem 0.75rem;
+   }
+
+   hr {
+       margin: 0.5rem 0;
+   }
+
+   .offcanvas-body p {
+       font-size: 0.8rem;
+   }
+   .toggle{
+      background-color: #fbc329;
+   }
+}

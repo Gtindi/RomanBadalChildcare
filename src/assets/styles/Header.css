@@ -1,0 +1,88 @@
+  .land {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    object-fit: cover; /* Optional: Adjust image scaling */
+    margin-top: -20px;
+  }
+  
+  .overlay {
+  position: absolute; /* Absolute positioning over the carousel */
+  font-family: Arial, sans-serif;
+  top: 40%; /* Center vertically */
+  left: 45%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset by half its size for perfect centering */
+  text-align: center; /* Center text */
+  color: white; /* White text for contrast */
+  z-index: 1; /* Ensure it appears above the image */
+}
+
+.overlay h1 {
+  font-size: 4.0rem; /* Adjust as needed */
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.overlay p {
+  font-size: 1.2rem; /* Adjust as needed */
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  background-color: #FAB803; /* Button color */
+  width: 175px;
+  color: black; /* Text color */
+  padding: 0.8rem 1.5rem; /* Button padding */
+  border: none; /* Remove borders */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.cta-button:hover {
+  background-color: #fbc329; /* Darker shade on hover */
+}
+
+@media (max-width: 768px) {
+  .land {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    object-fit: cover; /* Optional: Adjust image scaling */
+    margin-top: 70px;
+  }
+  
+  .overlay {
+  position: absolute; /* Absolute positioning over the carousel */
+  font-family: Arial, sans-serif;
+  top: 40%; /* Center vertically */
+  left: 45%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset by half its size for perfect centering */
+  text-align: center; /* Center text */
+  color: white; /* White text for contrast */
+  z-index: 1; /* Ensure it appears above the image */
+}
+
+.overlay h1 {
+  font-size: 1.0rem; /* Adjust as needed */
+  margin-bottom: 0.1rem;
+  text-align: left;
+}
+
+.overlay p {
+  font-size: 0.1rem; /* Adjust as needed */
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  background-color: #FAB803; /* Button color */
+  width: 75px;
+  color: black; /* Text color */
+  padding: 0.8rem 1.5rem; /* Button padding */
+  border: none; /* Remove borders */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 0.5rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+}

@@ -1,0 +1,179 @@
+.about-img {
+    height: 650px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: #1A1423;
+    color: white;
+    margin-top: "";
+    margin-left: 3rem;
+}
+
+.card-body h6 {
+    color: #FAB803;
+}
+
+.card-body p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.anime0 {
+    position: absolute;
+    z-index: 100;
+    top: 52rem;
+    right: 20rem;
+    height: auto;
+}
+
+.anime1 {
+    position: absolute;
+    z-index: 100;
+    right: 10rem;
+    top: 69rem;
+    height: auto;
+}
+.anime2 {
+    position: absolute;
+    z-index: 100;
+    right: 41rem;
+    top: 86rem;
+    height: auto;
+    width: 50PX;
+}
+.anime3 {
+    position: absolute;
+    z-index: 100;
+    right: 40rem;
+    top: 55rem;
+    height: auto;
+}
+.anime4 {
+    position: absolute;
+    z-index: 100;
+    right: 25rem;
+    top: 87rem;
+    height: 30PX;
+}
+.anime5 {
+    position: absolute;
+    z-index: 100;
+    right: 5rem;
+    top: 80rem;
+    height: auto;
+}
+
+.card0 {
+    background-color: #1A1423;
+    padding-top: 0.1rem;
+    padding-bottom: 2rem;
+}
+
+.card0 h5{
+    color: #FAB803;
+    font-weight: 800;
+    margin-top: 5rem;
+}
+
+.card0 ul li{
+    color: white;
+    padding: 5px;
+}
+
+.card0 button {
+    background-color: #FAB803;
+    border: #FAB803;
+    margin-top: 10px;
+}
+
+.card0 button:hover {
+    background-color: #fbc329;
+    color:#1A1423;
+}
+
+@media (max-width: 768px) {
+    .about-img {
+        height: 350px;
+        width: auto;
+        margin-bottom: 25px;
+        margin-left: -1.5rem;
+    }
+    
+    .card {
+        background-color: #1A1423;
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-left: 1rem;
+        width: 320px;
+    }
+    
+    
+    .card-body p {
+        font-size: 0.8rem;
+        /* margin-bottom: 1rem; */
+    }
+    
+    .row {
+        margin-top: 0px;
+    }
+    
+    .anime0 {
+        display: none;
+    }
+    
+    .anime1 {
+        display: none;
+    }
+    .anime2 {
+        display: none;
+    }
+    .anime3 {
+        display: none;
+    }
+    .anime4 {
+        display: none;
+    }
+    .anime5 {
+        display: none;
+    }
+    
+    .card0 {
+        background-color: #1A1423;
+        padding-top: 0.1rem;
+        padding-bottom: 2rem;
+    }
+    
+    .card0 h5{
+        color: #FAB803;
+        font-weight: 800;
+        margin-top: 5rem;
+    }
+    
+    .card0 ul li{
+        color: white;
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+    
+    .card0 button {
+        background-color: #FAB803;
+        border: #FAB803;
+        margin-top: 10px;
+    }
+    
+    .card0 button:hover {
+        background-color: #fbc329;
+        color:#1A1423;
+    }
+    .about-space {
+        margin-bottom: 1.5rem;
+    }
+    
+}

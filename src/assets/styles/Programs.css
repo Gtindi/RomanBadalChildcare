@@ -1,0 +1,72 @@
+.service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.service-box .service-ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Set the width of the circle */
+    height: 100px; /* Set the height of the circle */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #ab79f6; /* Light gray background for the circle */
+    margin: 0 auto; /* Center the icon within the container */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a 3D effect */
+    transition: all 500ms ease; /* Smooth transition for hover effect */
+}
+
+.service-box .service-ico .fa-icon {
+    font-size: 32px; /* Adjust the size of the icon */
+    color: #007bff; /* Set the color of the icon (blue in this example) */
+    transition: color 500ms ease; /* Smooth transition for icon color */
+}
+
+.service-box:hover .service-ico {
+    background-color: #1A1423; /* Change background color on hover */
+    box-shadow: 0 0 0 10px #cde1f8; /* Add an outer glow effect */
+}
+
+.service-box:hover .service-ico .fa-icon {
+    color: #fff; /* Change icon color on hover */
+}
+
+.service-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+    color: #FAB803;
+}
+
+.service-box .s-title:hover {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+    color: #FAB803;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+.service-box .s-description {
+    color: black;
+    text-align: center; /* Ensure text is centered */
+}
+
+.icon{
+    color: white;
+    height: 3rem;
+}
+
+.service-section {
+    background-color: #1A1423;
+}
+
+.programs {
+    color: #FAB803;
+    margin-top: 15px;
+}
