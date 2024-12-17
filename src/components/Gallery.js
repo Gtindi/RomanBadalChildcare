@@ -74,7 +74,7 @@ import anime15 from '../assets/images/animation15.png';
 
 const Gallery = () => {
     return (
-        <div className="gallery">  
+        <div id="gallery" className="gallery">  
             <h1>Gallery</h1>
             <div className="animation">
                 <img src={anime6} className="anime6" alt="anime6" />

@@ -8,7 +8,6 @@ import {
     faChessQueen, 
     faHatWizard, 
     faDice, 
-    faLinesLeaning, 
     faPalette, 
     faHeart, 
     faPuzzlePiece 
@@ -18,7 +17,7 @@ import "../assets/styles/Programs.css";
 
 const Contact = () => {
   return (
-    <div className="services">
+    <div id= "programs" className="services">
             
       <div style={{ marginBottom: "0%" }}>
         <section

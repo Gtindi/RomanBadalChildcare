@@ -19,7 +19,7 @@ import badge2 from '../assets/images/badge2.png';
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <h1>About Us</h1>
             <div className="about-space">
             <div className="row">
@@ -91,7 +91,8 @@ const About = () => {
                     <li><FontAwesomeIcon icon={faCheck} /> Experienced Staff: Educated teachers who prioritize individualized attention.</li>
                     <li><FontAwesomeIcon icon={faCheck} /> Interactive Learning: Hands-on activities that spark curiosity and creativity.</li>
                     <li><FontAwesomeIcon icon={faCheck} /> Outdoor Fun: Field trips, hikes, and picnics for memorable experiences.</li>
-                    <button type="button" class="btn btn-primary">Join the Roman Childcare Family Today!</button>
+                    <button type="button" class="btn btn-primary"><a href="#contact" style={{color:'white'}}>Join the Roman Childcare Family Today!</a></button>
+                    
                 </ul>
                 
                 </div>

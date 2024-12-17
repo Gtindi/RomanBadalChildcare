@@ -5,7 +5,6 @@ import { useForm, ValidationError } from '@formspree/react';
 import '../assets/styles/Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-    faCheck, 
     faEnvelope, // Mail icon
     faMapMarkerAlt, // Address icon
     faPhone // Phone number icon
@@ -18,7 +17,7 @@ function ContactForm() {
       return <p>Message submitted successfully!</p>;
   }
   return (
-    <div className='row' style={{ width: "100%;" }}>
+    <div id="contact" className='row' style={{ width: "100%;" }}>
     {/* <h1>Contact Us</h1> */}
       <div class="card" style={{width: "15rem;"}}>
         <div class="card-body">
