@@ -70,3 +70,12 @@
     color: #FAB803;
     margin-top: 15px;
 }
+
+@media (max-width: 768px) {
+    .service-box {
+        margin-left: 1.5rem;
+    }
+    .subtitle-a {
+        margin-left: 1.2rem;
+    }
+}

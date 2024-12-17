@@ -2,7 +2,7 @@
 
 import React from "react";
 import '../assets/styles/Header.css'
-import land from '../assets/images/landing.png';
+import land from '../assets/images/Landing007.png';
 
 
 const Header = () => {
@@ -11,11 +11,11 @@ const Header = () => {
             <img src={land} className="land" alt="land" />
             <div class="w3-overlay w3-show"></div>
             <div className="overlay" >
-                <div className="col-sm-2">
-                <h1>WELCOME TO ROMAN BADAL CHILDCARE</h1>
-                <button className="cta-button" href="#contact"><a href="#contact" style={{color:'white'}}>ENROLL TODAY</a></button>
+                {/* <div className="land-text"> */}
+                <h1><strong>WELCOME TO ROMAN BADAL CHILDCARE</strong></h1>
+                <button className="cta-button" href="#contact"><a href="#contact" >Enroll Today</a></button>
                 
-                </div>
+                {/* </div> */}
             </div>
         </div>
     );

@@ -34,8 +34,8 @@ function Navigation() {
                   <Nav.Link href="#programs">Program</Nav.Link>
                   <Nav.Link href="#contact">Contact Us</Nav.Link>
                   <hr/>
-                        <p> +1 555-555-5556</p> 
-                        <p> info@yourcompany.example.com </p>
+                        <p> +206-291-0730 </p> 
+                        <p> romanbadal@hotmail.com </p>
                 </Nav>
 
               </Offcanvas.Body>

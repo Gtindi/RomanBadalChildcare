@@ -53,6 +53,7 @@
     right: 40rem;
     top: 55rem;
     height: auto;
+    display: none;
 }
 .anime4 {
     position: absolute;
@@ -102,7 +103,7 @@
         height: 350px;
         width: auto;
         margin-bottom: 25px;
-        margin-left: -1.5rem;
+        margin-left: 1.5rem;
     }
     
     .card {

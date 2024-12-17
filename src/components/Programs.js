@@ -159,7 +159,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-            <p>
+            <p className="subtitle-a">
                 Join our loving daycare community, where every activity is thoughtfully designed to inspire confidence, creativity, and curiosity. Together, let’s make each day unforgettable experience for your child!
             </p>
             </div>

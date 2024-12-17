@@ -1,26 +1,28 @@
   .land {
     width: 100%; /* Make the image responsive */
-    height: 100%; /* Maintain the aspect ratio */
+    height:100%; /* Maintain the aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners */
     object-fit: cover; /* Optional: Adjust image scaling */
     margin-top: -20px;
   }
-  
+
   .overlay {
   position: absolute; /* Absolute positioning over the carousel */
-  font-family: Arial, sans-serif;
-  top: 40%; /* Center vertically */
-  left: 45%; /* Center horizontally */
+  font-family: "Times New Roman", Times, serif;
+  top: 45%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  width: 100%;
   transform: translate(-50%, -50%); /* Offset by half its size for perfect centering */
   text-align: center; /* Center text */
-  color: white; /* White text for contrast */
+  color: #fcf0ce; /* White text for contrast */
   z-index: 1; /* Ensure it appears above the image */
 }
 
 .overlay h1 {
-  font-size: 4.0rem; /* Adjust as needed */
-  margin-bottom: 0.5rem;
-  text-align: left;
+  font-size: 5.0rem; /* Adjust as needed */
+  
+  margin-bottom: 0rem;
+  text-align: center;
 }
 
 .overlay p {
@@ -30,13 +32,26 @@
 
 .cta-button {
   background-color: #FAB803; /* Button color */
+  position: absolute;
+  left: 45%;
+  top: 120%;
   width: 175px;
+  font-family: "Lucida Console", "Courier New", monospace;
   color: black; /* Text color */
   padding: 0.8rem 1.5rem; /* Button padding */
   border: none; /* Remove borders */
   border-radius: 5px; /* Rounded corners */
   font-size: 1rem; /* Font size */
   cursor: pointer; /* Pointer cursor on hover */
+}
+
+.cta-button a{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cta-button a:hover{
+  color: #1A1423;
 }
 
 .cta-button:hover {
@@ -46,17 +61,18 @@
 @media (max-width: 768px) {
   .land {
     width: 100%; /* Make the image responsive */
-    height: 100%; /* Maintain the aspect ratio */
+    height: 420px; /* Maintain the aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners */
     object-fit: cover; /* Optional: Adjust image scaling */
     margin-top: 70px;
+    background-image: url("../images/LandingM001.png");
   }
   
   .overlay {
   position: absolute; /* Absolute positioning over the carousel */
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   top: 40%; /* Center vertically */
-  left: 45%; /* Center horizontally */
+  left: 35%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Offset by half its size for perfect centering */
   text-align: center; /* Center text */
   color: white; /* White text for contrast */
@@ -64,9 +80,10 @@
 }
 
 .overlay h1 {
-  font-size: 1.0rem; /* Adjust as needed */
-  margin-bottom: 0.1rem;
-  text-align: left;
+  font-size: 1.4rem; /* Adjust as needed */
+  margin-bottom: 1rem;
+  margin-left: 6rem;
+  text-align: center;
 }
 
 .overlay p {
@@ -76,13 +93,16 @@
 
 .cta-button {
   background-color: #FAB803; /* Button color */
-  width: 75px;
+  position: absolute;
+  margin-right: 100rem;
+  width: 150px;
   color: black; /* Text color */
-  padding: 0.8rem 1.5rem; /* Button padding */
+  padding: 0.8rem 1.5rem; 
   border: none; /* Remove borders */
   border-radius: 5px; /* Rounded corners */
-  font-size: 0.5rem; /* Font size */
+  font-size: 0.7rem; /* Font size */
   cursor: pointer; /* Pointer cursor on hover */
 }
+
 
 }
