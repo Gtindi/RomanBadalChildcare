@@ -80,10 +80,10 @@
 }
 
 .overlay h1 {
-  font-size: 1.8rem; /* Adjust as needed */
-  margin-bottom: 0.5rem;
+  font-size: 1.6rem; /* Adjust as needed */
+  /* margin-bottom: 0rem; */
   margin-top: 1rem;
-  margin-left: 6rem;
+  margin-left: 4rem;
   text-align: center;
 }
 
@@ -96,6 +96,7 @@
   background-color: #FAB803; /* Button color */
   position: absolute;
   margin-right: 100rem;
+  left: 39%;
   width: 150px;
   color: black; /* Text color */
   padding: 0.8rem 1.5rem; 
