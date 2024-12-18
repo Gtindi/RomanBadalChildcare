@@ -105,13 +105,4 @@
   cursor: pointer; /* Pointer cursor on hover */
 }
 
-.cta-button a{
-  color: #1A1423;
-}
-
-.cta-button:hover {
-  background-color: #fbc329; /* Darker shade on hover */
-}
-
-
 }
