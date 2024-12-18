@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="Footer">
             <img src={logo} className="logo" alt="logo" />
             <div className="map0">
-                <p><a 
+                <p className="findUs"><a 
                 href="https://www.google.com/maps?q=1054+S+130th+St,+Burien,+WA+98168,+USA" 
                 target="_blank" 
                 rel="noreferrer"
@@ -30,7 +30,7 @@ const Footer = () => {
                 ></iframe></p>
 
             </div>
-            <p style={{ color:"white;" }} id="copyright">© 2024 Roman Badal Childcare. All rights reserved.</p>
+            <p style={{ color:"white;", fontSize: "0.2rem;" }} className="copyright">© 2024 Roman Badal Childcare. All rights reserved.</p>
         </div>
     );
 }

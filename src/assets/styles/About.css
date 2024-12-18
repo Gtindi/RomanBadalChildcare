@@ -110,7 +110,7 @@
         background-color: #1A1423;
         color: white;
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 35px;
         padding-left: 1rem;
         width: 320px;
     }
@@ -174,7 +174,10 @@
         color:#1A1423;
     }
     .about-space {
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .about ul {
+        /* margin-left: 10px; */
     }
     
 }

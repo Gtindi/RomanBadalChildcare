@@ -3,6 +3,15 @@
     margin-top: 20px;
 }
 
+.Footer p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+
 .map{
     height: 80px;
     width: 1000px;
