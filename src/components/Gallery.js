@@ -50,11 +50,6 @@ import photo45 from '../assets/images/image44.jpg';
 import photo46 from '../assets/images/image45.jpg';
 import photo47 from '../assets/images/image46.jpg';
 import photo48 from '../assets/images/image47.jpg';
-import photo49 from '../assets/images/image48.jpg';
-import photo50 from '../assets/images/image49.jpg';
-import photo51 from '../assets/images/image50.jpg';
-import photo52 from '../assets/images/image51.jpg';
-
 
 
 
@@ -234,18 +229,6 @@ const Gallery = () => {
                     </div>
                     <div class="carousel-item">
                     <img src={photo48} class="d-block w-100" alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={photo49} class="d-block w-100" alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={photo50} class="d-block w-100" alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={photo51} class="d-block w-100" alt="..."/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src={photo52} class="d-block w-100" alt="..."/>
                     </div>
                 </div>
                 </div>
