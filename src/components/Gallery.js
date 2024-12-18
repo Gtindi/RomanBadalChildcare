@@ -49,7 +49,7 @@ import photo44 from '../assets/images/image43.jpg';
 import photo45 from '../assets/images/image44.jpg';
 import photo46 from '../assets/images/image45.jpg';
 import photo47 from '../assets/images/image46.jpg';
-import photo48 from '../assets/images/image47.jpg';
+import photo48 from "../assets/images/image47.jpg";
 
 
 
