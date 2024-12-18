@@ -2,7 +2,7 @@
 
 import React from "react";
 import '../assets/styles/Header.css'
-import land from '../assets/images/Landing007.png';
+import land from '../assets/images/landing.png';
 
 
 const Header = () => {

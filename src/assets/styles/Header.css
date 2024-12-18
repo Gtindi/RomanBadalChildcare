@@ -9,12 +9,12 @@
   .overlay {
   position: absolute; /* Absolute positioning over the carousel */
   font-family: "Times New Roman", Times, serif;
-  top: 45%; /* Center vertically */
+  top: 40%; /* Center vertically */
   left: 50%; /* Center horizontally */
   width: 100%;
   transform: translate(-50%, -50%); /* Offset by half its size for perfect centering */
   text-align: center; /* Center text */
-  color: #fcf0ce; /* White text for contrast */
+  color: #fff; /* White text for contrast */
   z-index: 1; /* Ensure it appears above the image */
 }
 
@@ -61,18 +61,18 @@
 @media (max-width: 768px) {
   .land {
     width: 100%; /* Make the image responsive */
-    height: 420px; /* Maintain the aspect ratio */
+    height: 500px; /* Maintain the aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners */
     object-fit: cover; /* Optional: Adjust image scaling */
-    margin-top: 70px;
-    background-image: url("../images/LandingM001.png");
+    margin-top: 37px;
+    background-image:1 url("../images/landingM.png");
   }
   
   .overlay {
   position: absolute; /* Absolute positioning over the carousel */
   font-family: "Times New Roman", Times, serif;
   top: 40%; /* Center vertically */
-  left: 35%; /* Center horizontally */
+  left: 40%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Offset by half its size for perfect centering */
   text-align: center; /* Center text */
   color: white; /* White text for contrast */
@@ -80,8 +80,9 @@
 }
 
 .overlay h1 {
-  font-size: 1.4rem; /* Adjust as needed */
-  margin-bottom: 1rem;
+  font-size: 1.8rem; /* Adjust as needed */
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
   margin-left: 6rem;
   text-align: center;
 }
@@ -102,6 +103,14 @@
   border-radius: 5px; /* Rounded corners */
   font-size: 0.7rem; /* Font size */
   cursor: pointer; /* Pointer cursor on hover */
+}
+
+.cta-button a{
+  color: #1A1423;
+}
+
+.cta-button:hover {
+  background-color: #fbc329; /* Darker shade on hover */
 }
 
 
